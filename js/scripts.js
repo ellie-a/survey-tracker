@@ -58,5 +58,24 @@ $(document).ready(function() {
 
 
     event.preventDefault();
+
+
     });
+    $("#cssImg").click(function() {
+    $(".pic-showing").toggle();
+    $(".pic-hidding").toggle();
+
+    });
+    $("#rubyImg").click(function() {
+    $(".pic-showing2").toggle();
+    $(".pic-hidding2").toggle();
+
+    });
+    $("#sharpImg").click(function() {
+    $(".pic-showing3").toggle();
+    $(".pic-hidding3").toggle();
+
+    });
+
+
   });
