@@ -2,14 +2,6 @@ $(document).ready(function() {
 
   $("#survey form").submit(function(event){
 
-    var design = $("input:radio[name=design]:checked").val();
-    var big = $("input:radio[name=big]:checked").val();
-    var color = $("input:radio[name=color]:checked").val();
-    var small = $("input:radio[name=small]:checked").val();
-    var drive = $("input:radio[name=drive]:checked").val();
-    var boot = $("input:radio[name=boot]:checked").val();  //var lang = "";
-
-
     var css = 0;
     var ruby = 0;
     var sharp =0;
@@ -50,6 +42,13 @@ $(document).ready(function() {
     } else{
       sharp += 1;
     }
+
+    var design = $("input:radio[name=design]:checked").val();
+    var big = $("input:radio[name=big]:checked").val();
+    var color = $("input:radio[name=color]:checked").val();
+    var small = $("input:radio[name=small]:checked").val();
+    var drive = $("input:radio[name=drive]:checked").val();
+    var boot = $("input:radio[name=boot]:checked").val(); 
 
     $("#result").show()
     $(".css").text(css);
