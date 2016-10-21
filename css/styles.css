@@ -5,9 +5,15 @@
 
 .well {
   background-color: #AFEEEE;
+  color: #008080;
 
 }
 
 .jumbotron {
   background-color: #AFEEEE;
+  color: #008080;
+}
+
+#about h5 {
+  text-align: center;
 }
