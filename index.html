@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
      <link href="css/styles.css" rel="stylesheet" type="text/css">
      <script src="js/jquery-3.1.1.min.js"></script>
      <script src="js/scripts.js"></script>
@@ -9,12 +9,14 @@
   </head>
   <body>
     <div class="container">
+      <div class="jumbtron">
       <h1>Which Epicodus track is best for you?</h1>
       <h3>Take our survey below to find out what language track best suited for you.</h3>
+      </div>
       <div id="survey">
         <form>
           <div class="radio">
-            <h5>Do you like to make things look good/pretty/dope?</h5>
+            <h5 class="big-success">Do you like to make things look good/pretty/dope?</h5>
             <label>
               <input type="radio" name="design" value="yes" checked>
               Yeah!
@@ -96,6 +98,7 @@
         </form>
       </div>
       <div id="result">
+        <h5>Here are your results! Which route did you get the most points?</h5>
         <p>Css: <span class="css"></span></p>
         <p>Ruby: <span class="ruby"></span></p>
         <p>C#: <span class="sharp"></span></p>
