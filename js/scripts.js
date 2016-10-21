@@ -48,7 +48,7 @@ $(document).ready(function() {
       ruby += 1;
 
     } else{
-      css += 1;
+      sharp += 1;
     }
 
     $("#result").show()
