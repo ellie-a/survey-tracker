@@ -12,7 +12,7 @@ _Students are given six questions to answer yes or no, in which they will reciev
 
 * _Open terminal_
 * _Cd to desktop_
-* _Use the github url to clone to desktop (git clone https://github.com/epicodus-lessons/hello-world)_
+* _Use the github url to clone to desktop (git clone https://ellie-a.github.io/survey-tracker/)_
 * _Cd into survey-tracker_
 * _Open html file index.html_
 
