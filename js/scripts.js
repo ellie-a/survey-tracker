@@ -7,7 +7,7 @@ $(document).ready(function() {
     var color = $("input:radio[name=color]:checked").val();
     var small = $("input:radio[name=small]:checked").val();
     var drive = $("input:radio[name=drive]:checked").val();
-    var boot = $("input:radio[name=boot]:checked").val();
+    var boot = $("input:radio[name=boot]:checked").val();  //var lang = "";
 
 
     var css = 0;
@@ -51,6 +51,7 @@ $(document).ready(function() {
       css += 1;
     }
 
+    $("#result").show()
     $(".css").text(css);
     $(".ruby").text(ruby);
     $(".sharp").text(sharp);
